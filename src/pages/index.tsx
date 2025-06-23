@@ -1,7 +1,7 @@
 //import { Geist, Geist_Mono } from "next/font/google";
 
 import MenuItem from "@/components/templates/MenuItem"
-import { IconArrowsDownUp, IconForms, IconNumbers, IconShoppingCart } from "@tabler/icons-react"
+import { IconArrowsDownUp, IconForms, IconNumbers, IconSchool, IconShoppingCart } from "@tabler/icons-react"
 
 /* const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +27,7 @@ export default function Home() {
 				<MenuItem icone={IconArrowsDownUp} texto="Comunicação" url="/revisao/comunicacao" />
 				<MenuItem icone={IconNumbers} texto="Básico" url="/basico" />
 				<MenuItem icone={IconShoppingCart} texto="Loja" url="/loja" />
+				<MenuItem icone={IconSchool} texto="Sala Aula" url="/ead" />
 			</div>
 		</div>
 	)
