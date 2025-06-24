@@ -1,9 +1,10 @@
 import Sala from "@/components/ead/sala"
+import { CursoProvider } from "@/context/CursoContext"
 
 export default function SalaEad() {
 	return (
-		<div>
+		<CursoProvider>
 			<Sala />
-		</div>
+		</CursoProvider>
 	)
 }
